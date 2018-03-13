@@ -1,0 +1,27 @@
+@mixin theme($primary-color, $rotate: 120deg, $darkenpct: 20%) {
+  .btn {
+    $secondary-color: adjust-hue($primary-color,-$rotate);
+    $other-color: adjust-hue($primary-color, $rotate);
+    $other2-color: adjust-hue($primary-color,180deg);
+    &.btn-primary {
+      @include border-color($primary-color,0);
+    }
+    &.btn-secondary {
+      @include border-color($secondary-color);
+    }
+    &.btn-other {
+      @include border-color($other-color);
+    }
+    &.btn-other2 {
+      @include border-color($other2-color);
+    }
+  }
+}
+@mixin border-color($color, $darken_pct: 10%) {
+  border-color: darken($color, 20%);
+  background-color: darken($color,$darken_pct);
+  &:hover {
+    background-color: saturate($color, 20%);
+    background-color: lighten($color, 10%);
+  }
+}

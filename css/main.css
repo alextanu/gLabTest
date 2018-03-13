@@ -1,3 +1,114 @@
+.btn {
+  padding: 2px 10px;
+  border: 1px solid transparent;
+  border-radius: 2px;
+  color: #fff;
+}
+.btn:hover:not(:disabled) {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
+}
+.btn:disabled {
+  color: #666;
+  opacity: 0.5;
+}
 
+.theme-1 .btn.btn-primary {
+  border-color: #1a4d4d;
+  background-color: #339999;
+}
+.theme-1 .btn.btn-primary:hover {
+  background-color: #1fadad;
+  background-color: #40bfbf;
+}
+.theme-1 .btn.btn-secondary {
+  border-color: #4d4d1a;
+  background-color: #737326;
+}
+.theme-1 .btn.btn-secondary:hover {
+  background-color: #adad1f;
+  background-color: #bfbf40;
+}
+.theme-1 .btn.btn-other {
+  border-color: #4d1a4d;
+  background-color: #732673;
+}
+.theme-1 .btn.btn-other:hover {
+  background-color: #ad1fad;
+  background-color: #bf40bf;
+}
+.theme-1 .btn.btn-other2 {
+  border-color: #4d1a1a;
+  background-color: #732626;
+}
+.theme-1 .btn.btn-other2:hover {
+  background-color: #ad1f1f;
+  background-color: #bf4040;
+}
+
+.theme-2 .btn.btn-primary {
+  border-color: #220033;
+  background-color: #660099;
+}
+.theme-2 .btn.btn-primary:hover {
+  background-color: #660099;
+  background-color: #8800cc;
+}
+.theme-2 .btn.btn-secondary {
+  border-color: #003322;
+  background-color: #006644;
+}
+.theme-2 .btn.btn-secondary:hover {
+  background-color: #009966;
+  background-color: #00cc88;
+}
+.theme-2 .btn.btn-other {
+  border-color: #332200;
+  background-color: #664400;
+}
+.theme-2 .btn.btn-other:hover {
+  background-color: #996600;
+  background-color: #cc8800;
+}
+.theme-2 .btn.btn-other2 {
+  border-color: #113300;
+  background-color: #226600;
+}
+.theme-2 .btn.btn-other2:hover {
+  background-color: #339900;
+  background-color: #44cc00;
+}
+
+.theme-3 .btn.btn-primary {
+  border-color: #990000;
+  background-color: red;
+}
+.theme-3 .btn.btn-primary:hover {
+  background-color: red;
+  background-color: #ff3333;
+}
+.theme-3 .btn.btn-secondary {
+  border-color: #000099;
+  background-color: #0000cc;
+}
+.theme-3 .btn.btn-secondary:hover {
+  background-color: blue;
+  background-color: #3333ff;
+}
+.theme-3 .btn.btn-other {
+  border-color: #009900;
+  background-color: #00cc00;
+}
+.theme-3 .btn.btn-other:hover {
+  background-color: lime;
+  background-color: #33ff33;
+}
+.theme-3 .btn.btn-other2 {
+  border-color: #009999;
+  background-color: #00cccc;
+}
+.theme-3 .btn.btn-other2:hover {
+  background-color: cyan;
+  background-color: #33ffff;
+}
 
 /*# sourceMappingURL=main.css.map */
